@@ -1,0 +1,43 @@
+body{
+    background-image: url(../img/balloons-1761634_1920.jpg);
+}
+.tit{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.h11{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.niver{
+    display: flex;
+    justify-content: center;
+    color: rgb(38, 0, 255);
+    font-size: 50px;
+}
+
+.h12{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.feriado{
+    display: flex;
+    justify-content: center;
+    color: rgb(38, 0, 255);
+    font-size: 50px;
+}
+
+.R25{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    font-size: 20px;
+}

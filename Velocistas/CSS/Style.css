@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#titulo{
+    margin: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#tes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#video{
+    background-color: rgb(243, 131, 2);
+    width: 925px;
+    height: 600px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#vd{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+#imagens{
+    display: flex;
+    justify-content: center;
+}
+#imgz{
+    background-color: blue;
+    width: 425px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgf{
+    background-color: yellow;
+    width: 425px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgr{
+    background-color: red;
+    width: 425px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nome{
+    height: 37px;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nz{
+    width: 425px;
+    display: flex;
+    justify-content: center;
+}
+#nf{
+    width: 425px;
+    display: flex;
+    justify-content: center;
+}
+#nr{
+    width: 425px;
+    display: flex;
+    justify-content: center;
+}
+#velocistas{
+    background-color: black;
+}
+#rodape{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+#audio{
+    display: none;
+}
+

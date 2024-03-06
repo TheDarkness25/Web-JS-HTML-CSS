@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/rep.css">
+    <link rel="sortcut icon" href="../img/aleatorio.png">
+    <title>Número Randômico</title>
+</head>
+
+<body>
+    <h1><b>Acerte o Número!</b></h1>
+    <h2>Escolha Três Números de 0 a 10 e Tente acertar o Número Sorteado!!</h2>
+    <div class="all">
+            <div class="tudo">
+                <div class="labels">
+                    <div class="label1">
+                        <P>
+                            <label class="l1" for="n1"><b>Primeira Tentativa</b></label>
+                            <input id="input1" class="n1" autofocus required min="0.0" max="10.0" name="nota1" autocomplete="off" type="number" placeholder="digite o número">
+                        </P>
+                    </div>
+                    <div class="label2">
+                        <p>
+                            <label class="l2" for="n2"><b>Segunda Tentativa</b></label>
+                            <input id="input2" class="n2" required min="0.0" max="10.0" name="nota2"  autocomplete="off" type="number" placeholder="digite o número">
+                        </p>
+                    </div>
+                    <div class="label3">
+                        <p>
+                            <label class="l3" for="n3"><b>Terceira Tentativa</b></label>
+                            <input id="input3" class="n3" required min="0.0" max="10.0" name="nota3" autocomplete="off" type="number" placeholder="digite o número">
+                        </p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <p>
+                        <input id="bot1" class="bot1" type="button" value="Jogar" onclick="jogo();">
+                    </p>
+                    <p>
+                        <input id="bot2" class="bot2" type="button" value="Jogar novamente" ondblclick="nov();">
+                    </p>
+                </div>
+                <div class="resposta">
+                    <div id="resposta"></div>
+                </div>
+            </div>
+        </div>
+        <div class="fim">
+            &copy; Rafael Venticinque
+        </div>
+    <script src="../scripts/rep.js"></script>
+</body>
+
+</html>

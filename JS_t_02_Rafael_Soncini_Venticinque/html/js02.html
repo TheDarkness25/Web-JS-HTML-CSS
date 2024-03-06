@@ -1,0 +1,34 @@
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" href="../css/js02.css">
+    <link rel="sortcut icon" href="../img/Icon.png" type="image/x-icon" />
+    <title>Índice de Massa Corporal</title>
+</head>
+<body>
+     <p>
+        <h1 class="tit"><b><i>Cálculo de IMC </i></b></h1>
+     </p>
+    <form class="form" action="imc.html" name="formImc" method="post" onsubmit="return CalculoImc();">
+        <fieldset class="cont1">
+            <legend><b>Calcule o seu IMC</b></legend>
+            <p><b>Massa: </b><input type="text" name="peso" placeholder="Sua massa em quilos" width="200px"></p>
+            <p><b>Altura: </b><input type="text" name="altura" placeholder="Sua altura em metros"></p>
+            <p class="btn">
+                <input type="button" value="Calcular" onclick="CalculoImc();">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset class="cont2">
+            <legend><b>Resultado do Cálculo</b></legend>
+            <p><b>Resultado: </b><input class="res" type="text" name="resultado" width="200px"></p>
+        </fieldset>
+    </form>
+    <script src="../scripts/js02.js"></script>
+    <footer class="fim">
+        &copy; Rafael Venticinque
+    </footer>
+</body>
+
+</html>

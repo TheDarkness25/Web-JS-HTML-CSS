@@ -1,0 +1,35 @@
+html, body{
+    background-color: lightgray;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: magenta;
+    text-shadow: black;
+    text-align: center;
+    text-shadow: 5px, 3px, 5px black;
+}
+#container{
+    background-color: rgb(67, 67, 248);
+    margin: 15px 5%;
+}
+#box_header{
+    background-color: darkcyan;
+    padding: 10px 5%;
+    height: 70px;
+}
+#box_footer{
+    background-color: darkcyan;
+    padding: 10px 5%;
+    height: 70px;
+}
+.box_article{
+    background-color: dodgerblue;
+    margin: 2%;
+    padding: 10px 5%;
+    border: solid 1.2px gray;
+}
+.tit2, .tit3, #sn2, #box_footer{
+    text-align: center;
+}

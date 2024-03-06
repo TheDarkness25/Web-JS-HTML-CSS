@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head id="cima">
+        <meta charset="utf-8" />
+        <title>Cadastro Aluno</title>
+        <link rel="sortcut icon" href="../img/Aluno PNG.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/form.css">
+    </head>
+    <body>
+        <h1><b>Cadastro de Aluno</b></h1>
+        <form id="Cadastro" name="cadastro" method="POST" action="">
+            <fieldset id="Infa">
+                <legend><b>Informações do Aluno</b></legend>
+                <p id="Nome">
+                    <label for="nome">Nome do Aluno:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome do Aluno">
+                </p>
+                <p id="cpfa">
+                    <label for="cpfa">CPF do Aluno:</label>
+                    <input type="number" id="cpfa" name="cpfa" placeholder="CPF Aluno">
+                </p>
+                <p id="Idade">
+                    <label for="idade">Idade do Aluno:</label>
+                    <input type="number" id="idade" name="idade" placeholder="Idade">
+                </p>
+                <p id="Dnas">
+                    <label for="dnas">Data de Nascimento:</label>
+                    <input type="date" id="dnas" name="dnas">
+                </p>
+                <p id="End">
+                    <label for="end">Endereço:</label>
+                    <input type="text" id="end" name="end" placeholder="Endereço">
+                </p>
+                <p id="Tel">
+                    <label for="res">Telefone(res.):</label>
+                    <input type="number" id="res" name="res" placeholder="Telefone Residencial">
+                    <label for="cel">Telefone(cel.):</label>
+                    <input type="number" id="cel" name="cel" placeholder="Telefone Celular">
+                </p>
+                <p id="Nivel">
+                    <div id="Grau">
+                        <label for="nivel">Nível de Escolaridade:</label>
+                        <select id="grau" required>
+                            <option selected disabled value="">Selecione</option>
+                            <option>Fund. 1</option>
+                            <option>Fund. 2</option>
+                            <option>Ens. Médio</option>
+                        </select>
+                    </div>
+                </p>
+            </fieldset>
+            <fieldset id="Infr">
+                <legend><b>Informações dos Responsáveis</b></legend>
+                <p id="Resp">
+                    <label for="mae">Nome da Mãe:</label>
+                    <input type="text" id="mae" name="mae" placeholder="Nome da Mãe">
+                    <label for="pai">Nome do Pai:</label>
+                    <input type="text" id="pai" name="pai" placeholder="Nome do Pai (opcional)">
+                </p>
+                <p id="Cpfr">
+                    <label for="cpfr">CPF da Mãe:</label>
+                    <input type="number" id="cpfr" name="cpfrm" placeholder="CPF Mãe">
+                    <label for="cpfr">CPF do Pai:</label>
+                    <input type="number" id="cpfr" name="cpfrp" placeholder="CPF Pai">
+                </p>
+                <p id="respl">
+                    <label for="respl">Responsável Legal:</label>
+                    <input type="text" id="respl" name="respl" placeholder="Nome do Responsável">
+                </p>
+            </fieldset>
+            <fieldset id="Cont">
+                <legend><b>Controle de Formulário</b></legend>
+                <input type="submit" id="env" value="Enviar Informações">
+                <input type="reset" id="reset" value="Limpar Formulário">
+            </fieldset>
+        </form>
+    </body>
+    <footer id="baixo">
+        <p>
+            &copy; <b>Rafael Venticinque</b>
+        </p>
+    </footer>
+</html>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%27');
+
+body{
+    background-image: url(../img/tria.jpg);
+}
+
+.h1{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.l1{
+    font-size: 25px;
+}
+
+.l2{
+    font-size: 25px;
+}
+
+.l3{
+    font-size: 25px;
+}
+
+.i1{
+    font-size: 15px;
+    text-align: center;
+}
+
+.i2{
+    font-size: 15px;
+    text-align: center;
+}
+
+.i3{
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn{
+    font-size: 15px;
+}
+
+.fim{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}

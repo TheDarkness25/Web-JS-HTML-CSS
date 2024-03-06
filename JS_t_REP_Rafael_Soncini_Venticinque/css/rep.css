@@ -1,0 +1,138 @@
+Body{
+    background-image: url(../img/numbers-g1c58490e5_1920.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(255, 0, 170);
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 110, 255);
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.tudo{
+    padding-top: 10px;
+    width: 700px;
+    height: 250px;
+    padding-right: 150px;
+    padding-left: 150px;
+    border-radius: 15px;
+    background-color: rgb(0, 66, 248);
+}
+
+.labels{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.label1{
+    width: 200px;
+}
+
+.l1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.n1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    width: 170px;
+    text-align: center;
+}
+
+.label2{
+    width: 200px;
+}
+
+.l2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.n2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    width: 170px;
+    text-align: center;
+}
+
+.label3{
+    width: 200px;
+}
+
+.l3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.n3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    width: 170px;
+    text-align: center;
+}
+
+
+.btn{
+    width: 700px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bot1{
+    background-color: green;
+    height: 50px;
+    width: 200px;
+    border-width: 7px;
+    border-style: outset;
+    border-radius: 15px;
+    color: white;
+}
+
+.bot2{
+    background-color: rgb(252, 6, 6);
+    height: 50px;
+    width: 200px;
+    border-width: 7px;
+    border-style: outset;
+    border-radius: 15px;
+    color: white;
+}
+
+#resposta, .resposta{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.fim{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}

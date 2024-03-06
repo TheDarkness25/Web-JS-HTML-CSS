@@ -1,0 +1,30 @@
+@charset 'utf-8';
+body{
+    background-color: black;
+    text-align: center;
+}
+header{
+    background-color: antiquewhite;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+footer{
+    background-color: antiquewhite;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#unico{
+    background-color: blue;
+}
+section, footer, header{
+    width: 80%;
+    margin: auto;
+}
+#texto{
+    font-size: 30px; 
+    margin: 0px;
+}

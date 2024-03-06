@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(118, 238, 232);
+    color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+#Cont{
+    justify-content: space-evenly;
+    display: flex;
+}
+#nome{
+    width: 500px;
+    height: auto;
+}
+#idade{
+    width: 48px;
+    height: auto;
+}
+#end{
+    width: 550px;
+}
+#Tel{
+    justify-content: space-between;
+    display: flex;
+}
+#Grau{
+    display: flex;
+    justify-content: center;
+}
+#Resp{
+    display: flex;
+    justify-content: space-between;
+}
+#Cpfr{
+    display: flex;
+    justify-content: space-between;
+}
+#respl{
+    display: flex;
+    justify-content: center;
+}

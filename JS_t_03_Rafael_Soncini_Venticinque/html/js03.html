@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/js03.css">
+    <link rel="sortcut icon" href="../img/tomando-notas.png">
+    <title>Cáculo de Média</title>
+</head>
+<body>
+    <body>
+     <p>
+        <h1 class="tit"><b><i>Cálculo da Média</i></b></h1>
+     </p>
+    <form class="form" action="js03.html" name="formed" method="post" onsubmit="return Calculomed();">
+        <fieldset class="cont1">
+            <legend><b>Calcule a Média</b></legend>
+            <p><b>Nota 1: </b><input class="n1" autocomplete="off" type="text" name="nota1" placeholder="Com até duas casas decimais" width="200px"></p>
+            <p><b>Nota 2: </b><input class="n2" autocomplete="off" type="text" name="nota2" placeholder="Com até duas casas decimais"></p>
+            <p class="btn">
+                <input class="bot" type="button" value="Calcular" onclick="Calculomed();">
+                <input class="bot" type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset class="cont2">
+            <legend><b>Resultado da Média</b></legend>
+            <p><b>A média é: </b><input disabled="" autocomplete="off" class="res" type="text" name="resultado" width="200px"></p>
+        </fieldset>
+    </form>
+    <script src="../script/js03.js"></script>
+    <footer class="fim">
+        &copy; Rafael Venticinque
+    </footer>
+</body>
+</html>
